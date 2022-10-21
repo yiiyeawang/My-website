@@ -11,9 +11,9 @@ import "antd/dist/antd.css";
 
 function App() {
   return (
-    <div >
+    <div style={{minHeight:"100vh"}}>
       <Nav />
-        <Routes>
+        <Routes >
           <Route path='/' element={<Homepage />}></Route>
           <Route path='/about' element={<About />}></Route>
           <Route path='/parking' element={<Parking />}></Route>
