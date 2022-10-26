@@ -13,7 +13,7 @@ import Input from 'rc-input';
 //獲取當下的經緯度
 //建立地圖Leaflet.js
 //將經緯度寫入地圖中觸發地圖變化
-//以當下位置查詢https://odws.hccg.gov.tw/001/Upload/25/opendataback/9059/452/25d47dd1-ac2b-405f-ac52-ba2f8b3071b6.json
+//以當下位置查詢
 //獲得資料渲染
 
 
