@@ -1,13 +1,25 @@
 {
   "files": {
-    "main.css": "/photo-website/static/css/main.f1d3a4fd.css",
-    "main.js": "/photo-website/static/js/main.97376518.js",
+    "main.css": "/photo-website/static/css/main.6799c2b4.css",
+    "main.js": "/photo-website/static/js/main.ba530649.js",
+    "static/media/StSFontpage.png": "/photo-website/static/media/StSFontpage.a1a44fa77ab3604eaa28.png",
+    "static/media/about-pic.png": "/photo-website/static/media/about-pic.4a163dcf6ffcece29595.png",
+    "static/media/Paint.jpg": "/photo-website/static/media/Paint.a7b21009e03ef516b266.jpg",
+    "static/media/background.png": "/photo-website/static/media/background.a5480f4d95eeede582bb.png",
+    "static/media/GD.jpg": "/photo-website/static/media/GD.010936318b1a20442f95.jpg",
+    "static/media/logo.png": "/photo-website/static/media/logo.6e243dd2d1d02820a493.png",
+    "static/media/bc.svg": "/photo-website/static/media/bc.f9b1e4b818242204a57ae9026131e1f6.svg",
+    "static/media/linkedin.svg": "/photo-website/static/media/linkedin.7defd339fd92d3e5fa034b24a5f10ed6.svg",
+    "static/media/Group 1.svg": "/photo-website/static/media/Group 1.ce7afde82dff703de99ce2e2714e6837.svg",
+    "static/media/behance-brands.svg": "/photo-website/static/media/behance-brands.9d88bef1ca12bc642c72b9b79f2517db.svg",
     "index.html": "/photo-website/index.html",
-    "main.f1d3a4fd.css.map": "/photo-website/static/css/main.f1d3a4fd.css.map",
-    "main.97376518.js.map": "/photo-website/static/js/main.97376518.js.map"
+    "static/media/divclass.svg": "/photo-website/static/media/divclass.5167b21db6a3ad880bdd358a44dbd452.svg",
+    "static/media/room-24px.svg": "/photo-website/static/media/room-24px.56c49cd829e0c2afe443f10407916a03.svg",
+    "main.6799c2b4.css.map": "/photo-website/static/css/main.6799c2b4.css.map",
+    "main.ba530649.js.map": "/photo-website/static/js/main.ba530649.js.map"
   },
   "entrypoints": [
-    "static/css/main.f1d3a4fd.css",
-    "static/js/main.97376518.js"
+    "static/css/main.6799c2b4.css",
+    "static/js/main.ba530649.js"
   ]
 }
