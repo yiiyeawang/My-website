@@ -18,18 +18,17 @@ const Search = ({search, setinput}) => {
 
 
   const inputHandler = (e) => {
-    //console.log(e.target.value);
+    console.log(e.target.value);
     setinput(e.target.value);
   };
 
   return (
-    // <div className='search'>
-    //     <Input className='input' onChange={inputHandler}  type="text"  placeholder="Basic usage" />
-    //     <button onClick={search}>Search</button>
-    // </div>
-    <Space className='search' direction="vertical">
-    <Search className='input' placeholder="input search text" onSearch={inputHandler} style={{ width: 200 }} />
-  </Space>
+     <div className='search'>
+         {/* <Input className='input' onChange={inputHandler}  type="text"  placeholder="Basic usage" />
+         <button onClick={search}>Search</button> */}
+            <Search className='input' placeholder="input search text" onSearch={inputHandler} style={{ width: 200 }} />
+    </div>
+       
   );
 };
 

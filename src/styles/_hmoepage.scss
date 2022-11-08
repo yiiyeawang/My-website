@@ -1,0 +1,264 @@
+.hero-design {
+    display: none;
+}
+
+.hero {
+    background-color: rgb(110, 175, 112);
+    display: grid;
+    text-align: center;
+    padding: 4em;
+    h1{
+        color: white;
+        font-weight: bold;
+    }
+    .meet{
+        // display: flex;
+        // margin: 0 auto;
+        // width: 400px;
+        font-weight: bold;
+        color: rgb(197, 60, 60);
+        span {
+            margin-top: 1em;
+            margin-right: 0.5em;
+        }
+    }
+}
+
+
+
+.scroll{
+    width: 40px;
+    margin-top: 2em;
+}
+
+section {
+    padding: 4em 2em;
+    text-align: center;
+}
+
+.featured {
+    position: relative;
+    .ex {
+        .ex-til {
+            font-size: 2em;
+            font-weight: bold;
+        }
+        .ex-qua {
+            color:#CCC60E;
+            padding-left: 2em;
+            span {
+                font-size: 4em;
+            }
+            
+        }
+        
+    }
+}
+.featured::before {
+    content:"";
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgb(255, 235, 235);
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.subtitle {
+    text-transform: uppercase;
+    font-weight: bold;
+    color:rgb(197, 60, 60) ;
+    letter-spacing: .2em;
+    font-size: .85em;
+}
+
+.featured-title {
+    color: #000;
+    font-weight: bold;
+    font-size: 1.3em;
+    margin-top: -0.4em;
+    display: block;
+}
+
+.featured-desc {
+    color: #252525;
+    margin-bottom: 3em;
+    font-style: 0.9em;
+    line-height: 1.8em;
+    font-weight: 500;
+}
+
+.skills {
+    background-color: rgb(197, 60, 60) ;
+}
+
+.skills-container ul li {
+
+    background-color: #fff;
+    padding: 2em;
+    border-radius: 1em;
+    margin-bottom: 1em;
+
+    .icon-container {
+        height: 100px;
+        display: grid;
+        place-content: center;
+        margin: 0 auto;
+
+        &.one ,&.three{
+            width: 50px;
+        }
+        &.two 　{
+            width: 100px;
+        }
+        
+    }
+
+
+    .skill-title {
+        font-weight: bold;
+    }
+    .featured-desc {
+        margin-bottom: 2em;
+    }
+}
+
+.portfolio {
+    background-color: #f7f7f7;
+    text-align: center;
+}
+.portfolio-container a img {
+    border-radius:  1em;
+    margin-bottom: 2em;
+}
+
+
+@media only screen and (min-width:800px){
+
+    .featured , .portfolio {
+        text-align: left;
+    }
+    .featured,.portfolio-container {
+        display: grid;
+        grid-template-columns: 40% auto;
+    }
+
+    .left ,.portfolio-left{
+        display: grid;
+        place-content: center;
+    }
+    .right {
+        margin-left: 2em;
+        margin-top: 1em;
+    }
+    .exper .ex{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .skills {
+        margin-top: -5em;
+        margin-bottom: -7em;
+        padding-top: 7em;
+    }
+
+    .skills-container ul {
+        display: grid;
+        grid-template-columns: repeat(3,auto);
+        grid-gap: 1em;
+    }
+
+    .portfolio {
+        padding-top: 7em;
+    }
+    .portfolio-container img {
+        margin-left: 2em;
+    }
+}
+
+@media only screen and (min-width:1050px){
+    // .hero {
+    //     height: 90vh;
+    //     background-image: linear-gradient(to right,rgba(110, 175, 112,1) 66%,rgba(110, 175, 112,0));
+    // }
+
+    
+
+.hero {
+    display: grid;
+    grid-template-columns: 66% auto;
+    background-color: unset;
+    padding: 0;
+
+    .content {
+        // background-color:  rgb(110, 175, 112);
+        background-color: unset;
+        padding: 6em 8em 6em 4em;
+        text-align: left;
+
+        h1 {
+            font-size: 3em;
+            line-height: 1.2em;
+        }
+    }
+}
+.meet {
+    margin: unset;
+}
+.hero-design{
+    display: unset;
+    width: 120%;
+    margin-left: -40%;
+    overflow: hidden;
+    img{
+        height: 100%;
+        width: unset;
+    }
+}
+
+.portfolio img {
+    float: right;
+    max-width:  500px;
+}
+
+}
+
+@media only screen and (min-width:1250px){
+    section {
+        padding: 10em 10em 4em 10em;
+    }
+
+    .hero .content {
+        
+        padding: 6em 8em 6em 10em ;
+    }
+}
+
+
+@media only screen and (min-width:1550px){
+    section {
+        padding: 6em 20em 4em 20em;
+    }
+
+    .hero .content {
+
+        padding: 9em 20em 6em 20em ;
+    }
+}
+
+
+.scrollAnima {
+    animation: scrollAnima 1s infinite alternate-reverse;
+}
+
+@keyframes scrollAnima {
+    from{
+        transform: translate(881px , 120px);
+        z-index:5;
+    }
+    to {
+        transform: translate(881px , 130px) ;
+    }
+}

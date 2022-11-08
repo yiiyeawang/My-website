@@ -21,6 +21,7 @@ function Parking() {
     const center = [24.7890, 121.0142]
     const zoom = 15
     const SearchResult = [1,2,3,4,5,6,7]
+    const url = ' https://tdx.transportdata.tw/api/basic/v1/Parking/OffStreet/CarPark/City/Hsinchu'
 
     const marks = {
         0: '0M',
@@ -93,7 +94,7 @@ function Parking() {
     }
 
     return(
-        <Row style={{padding:"1.2em",margin:"1.2em 0"}} gutter={[32,48]}>
+        <Row gutter={[32,48]}>
             <Col span={12}>
                 <ExternalStateExample />
             </Col>
@@ -111,7 +112,7 @@ function Parking() {
                     <Space className='SearchResult' direction="vertical"   size="middle"   style={{ display: 'flex', height:'325px',boxSizing:'border-box' ,overflow:'scroll',padding:'0.4em' }}  >
                         {SearchResult?.map((item,key) => {
                             return(
-                                <Card  headStyle={{fontSize:'18px'}} hoverable='true' >
+                                <Card key={key}  headStyle={{fontSize:'18px'}} hoverable='true' >
                                     <h4>{`停車場名稱${item}`}</h4>
                                     <Space align='center'>
                                          停車場地址
