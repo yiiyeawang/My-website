@@ -13,9 +13,11 @@ const Nav = () => {
                 <ul>
                     <li><Link to="/">Home</Link></li>
                     <li><Link to="/pixelimageAPI">PixelImageAPI</Link></li>
-                    <li><Link to="/about">About</Link></li>
+                    {/* <li><Link to="/about">About</Link></li>
                     <li><Link to="/parking">Parking</Link></li>
                     <li><Link to="/guessnum">GuessNumberGame</Link></li>
+                    <li><Link to="/threeD">threeD</Link></li> */}
+                    <li><Link to="/JapaneseCard">JapaneseCard</Link></li>
                 </ul>
             </nav>
         </header>

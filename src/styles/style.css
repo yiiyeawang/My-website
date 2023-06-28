@@ -396,4 +396,331 @@ section {
   to {
     transform: translate(881px, 130px);
   }
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.container .page {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.container .display {
+  opacity: 1;
+  transition: all 1s ease-in-out;
+}
+.container .undisplay {
+  opacity: 0;
+  transition: all 1s ease-in-out;
+}
+.container .welcome {
+  background-image: url(../images/guessNum/m-wrona-pCgxm-HDMNs-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.container .welcome .ant-card {
+  background: transparent;
+  margin-bottom: 10%;
+}
+.container .welcome .ant-card .welcome-title {
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/guessNum/welcome-title.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.container .welcome .ant-card .welcome-start-btn {
+  width: 237px;
+  height: 100px;
+  background-image: url(../images/guessNum/welcome-start-btn.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.container .welcome .ant-card .welcome-start-btn:hover {
+  transform: scale(1.05);
+  transition: all 0.1s ease-in-out;
+}
+.container .nextone-btn:hover {
+  transform: scale(1.05);
+  transition: all 0.1s ease-in-out;
+}
+.container .box {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.container .box .head {
+  position: absolute;
+  top: 0;
+  z-index: 2;
+  color: #FFF;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.container .story {
+  min-width: 50%;
+  position: absolute;
+}
+.container .storyText {
+  color: #F8EFDF;
+  font-size: 1.5em;
+  font-weight: lighter;
+}
+.container .nextone {
+  width: 30%;
+  max-width: 205px;
+  float: right;
+  font-size: 0.5em;
+  text-align: center;
+}
+.container .nextone p {
+  color: #F8EFDF;
+  font-weight: lighter;
+}
+.container .nextone-btn {
+  height: 100px;
+  margin-top: -36px;
+  background-image: url(../images/guessNum/nexton-btn.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.container .page1 {
+  z-index: 1;
+}
+.container .page1 .row {
+  width: 100%;
+  height: 100%;
+}
+.container .page1 .row .page1-left {
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/guessNum/pagebg-left.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 8em;
+  text-align: left;
+}
+.container .page1 .row .page1-right {
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/guessNum/fran-jacquier-tmuArUNS1TI-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.container .page2 {
+  z-index: 2;
+  background-image: url(../images/guessNum/becca-schultz-l6BenhrIc2w-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.container .page2 .story {
+  top: 10%;
+  right: 15%;
+}
+.container .page3 {
+  z-index: 3;
+  background-image: url(../images/guessNum/peter-herrmann-NQLzyrn69XA-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.container .page3 .story {
+  top: 20%;
+  left: 20%;
+}
+.container .page4 {
+  z-index: 4;
+  background-image: url(../images/guessNum/priscilla-du-preez-zY0q8eFom8I-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.container .page4 .story {
+  top: 10%;
+  left: 15%;
+}
+.container .page5 {
+  z-index: 5;
+}
+.container .page5 .row {
+  width: 100%;
+  height: 100%;
+}
+.container .page5 .row .page5-left {
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/guessNum/charlesdeluvio-pcZvxrAyYoQ-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.container .page5 .row .page5-right {
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/guessNum/pagebg-left.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container .page6 {
+  background-image: url(../images/guessNum/dan-gold-R1aGG70azDU-unsplash-2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 6;
+}
+.container .page6 .story {
+  width: 100%;
+  height: 100%;
+}
+.container .page6 .story .storyText p {
+  position: absolute;
+}
+.container .page6 .story .storyText .text1 {
+  top: 10%;
+  left: 10%;
+}
+.container .page6 .story .storyText .text2 {
+  top: 20%;
+  right: 15%;
+}
+.container .page6 .story .storyText .text3 {
+  bottom: 10%;
+  left: 15%;
+}
+.container .page6 .story .storyText .text4 {
+  bottom: 10%;
+  right: 10%;
+  font-size: 0.8em;
+}
+.container .page6 .story .storyText .rule .mark {
+  color: #FFE64C;
+}
+.container .page6 .story .storyText .rule .instance {
+  font-size: 0.8em;
+}
+.container .page6 .story .storyText .penalty > .mark {
+  color: #FA6A50;
+}
+.container .page6 .story .nextone {
+  position: absolute;
+  right: 5%;
+  bottom: 3%;
+}
+.container .game {
+  background-image: url(../images/guessNum/thom-milkovic-kYlYwQze5vI-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 4em 0;
+  z-index: 7;
+}
+.container .game .leftbox {
+  padding: 4em 0;
+}
+.container .game .leftbox .result {
+  border: 3px solid #C2E5DE;
+  height: 100%;
+}
+.container .game .rightbox .panel {
+  background-image: url(../images/guessNum/panelBG.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.container .game .rightbox .panel .NumBTN-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(../images/guessNum/panelOneBTN.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.container .game .rightbox .panel div[className^=NumBTN] {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.container .success {
+  background-image: url(../images/guessNum/zulian-firmansyah-sEUAJeFn5mE-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 8;
+}
+.container .success .story {
+  top: 20%;
+  left: 30%;
+}
+.container .success .story .gameOver {
+  height: 100px;
+  background-image: url(../images/guessNum/gameOverBTN.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.container .fail {
+  background-image: url(../images/guessNum/pexels-cottonbro-studio-3738121.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 9;
+}
+.container .fail .story {
+  top: 40%;
+  left: 10%;
+}
+.container .fail .story .reGame {
+  display: flex;
+  justify-content: space-around;
+}
+.container .fail .story .reGame .reGameBTN {
+  width: 100%;
+  height: 100px;
+  background-image: url(../images/guessNum/gameOverBTN.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.container .fail .story .reGame .failGameOverBTN {
+  width: 100%;
+  height: 100px;
+  background-image: url(../images/guessNum/FailGameOverBTN.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.Cardboxfront {
+  height: 100px;
+  width: 30px;
+  background-color: aqua;
+}
+
+.Cardboxback {
+  height: 100px;
+  width: 30px;
+  background-color: rgb(35, 94, 94);
 }/*# sourceMappingURL=style.css.map */
