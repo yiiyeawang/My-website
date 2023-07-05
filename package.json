@@ -1,7 +1,7 @@
 {
-  "name": "photo-website",
-  "homepage": "https://yiiyeawang.github.io/photo-website/",
-  "version": "0.1.0",
+  "name": "my-website",
+  "homepage": "https://yiiyeawang.github.io/my-website/",
+  "version": "0.2.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",

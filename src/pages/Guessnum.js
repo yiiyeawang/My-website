@@ -129,11 +129,13 @@ function Guessnum() {
 
 
                 
-        
+       const getNumber = (e) => {
+        console.log("getNumver",e.target);
+       } 
         
   return (
     <div className="container">
-        <div className='page welcome'>
+        {/* <div className='page welcome'>
             <Card bordered={false}> 
             <Row style={{height:"100px"}}>
                 <Col offset={6} span={12}><div className='welcome-title'></div></Col>
@@ -274,8 +276,22 @@ function Guessnum() {
                     </div>
                 </div>
             </div>
-        </div>
-        <div className="page game undisplay">
+        </div> */}
+        <div className="page game">
+            <div className='panel'>
+                <input className='NumBTN-1' onClick={getNumber} values={1}></input>
+                <div className='NumBTN-2' values={2} ></div>
+                <div className='NumBTN-3'></div>
+                <div className='NumBTN-4'></div>
+                <div className='NumBTN-5'></div>
+                <div className='NumBTN-6'></div>
+                <div className='NumBTN-7'></div>
+                <div className='NumBTN-8'></div>
+                <div className='NumBTN-9'></div>
+                <div className='ruleBTN'></div>
+                <div className='NumBTN-0'></div>
+                <div className='CheckBTN'></div>
+            </div>
             {/* <h1>猜數字遊戲</h1>
             <p>試著猜看看密碼鎖是多少吧！我們將會提示你每一次嘗試的答案是否正確。當你的位置與數字是對的，我們會給你Ａ的回覆;若只有數字對了，位置不對時，我們會給你Ｂ的回覆。加油！快逃離這個密室吧！</p>
             <Button onClick={handleStart} disabled={gameAnswer?true:false} >開始遊戲</Button>
@@ -291,9 +307,9 @@ function Guessnum() {
             <Card title="結果">
                 <Table dataSource={[...dataSource]} columns={columns} />
             </Card> */}
-            <Row wrap={false}>
-                <Col className='leftbox' span={11}>
-                    <div className="result ">
+            {/* <Row wrap={false} style={{height:"100%"}}>
+                <Col className='leftbox' span={11}> */}
+                    {/* <div className="result ">
                         <div className="timer"></div>
                         <div className="inputdispaly"></div>
                         <div className="point">
@@ -302,19 +318,19 @@ function Guessnum() {
                     </div>
                 </Col>
                 <Col className='rightbox' offset={0} span={11}>
-                    <div className="panel "> 
-                    <div className="NumBTN-1"></div> 
-                        {/* <Form >
-                            <Form.Item name={1}>
-                                <div className="NumBTN-1"></div>    
-                            </Form.Item>
-                            <Form.Item name={2}>
+                    <div className="panel ">  */}
+                    {/* <div className="NumBTN-1"></div>  */}
+                        {/* <Form style={{}}>
+                            <Form.Item name={1} className="NumBTN-1">
+                                <div ></div>    
+                            </Form.Item> */}
+                            {/* <Form.Item name={2}>
                                 <div className="NumBTN-2"></div>
-                            </Form.Item>
-                            <Form.Item name={3}>
+                            </Form.Item> */}
+                            {/* <Form.Item name={3}>
                                 <div className="NumBTN-3"></div>
-                            </Form.Item>
-                            <Form.Item name={4}>
+                            </Form.Item> */}
+                            {/* <Form.Item name={4}>
                                 <div className="NumBTN-4"></div>
                             </Form.Item>
                             <Form.Item name={5}>
@@ -340,15 +356,15 @@ function Guessnum() {
                             </Form.Item>
                             <Form.Item name={'check'}>
                             <div className="CheckBTN"></div>
-                            </Form.Item>
-                        </Form> */}
-                    </div>
+                            </Form.Item> */}
+                        {/* </Form> */}
+                    {/* </div>
                 </Col>
-            </Row>
+            </Row>*/}
 
             
-        </div>
-        <div className="page success undisplay">
+        </div> 
+        {/* <div className="page success undisplay">
             <div className="box">
                 <Space Space className='head'><h3>隻身一人</h3><span>作者：哞哞牛</span></Space>
                 <div className="story">
@@ -393,7 +409,7 @@ function Guessnum() {
                     </div>
                 </div>
             </div>    
-        </div> 
+        </div>  */}
     </div>
   )
 }

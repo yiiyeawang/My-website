@@ -253,35 +253,115 @@
                 height: 100%;
             }
         }
-        .rightbox {
+        // .rightbox {
+        //     height: 100%;
             .panel {
+                height: 100%;
+                max-width: 810px;
                 background-image: url(../images/guessNum/panelBG.png);
-                background-size: contain;
+                background-size: cover;
                 background-position: center;
                 background-repeat: no-repeat;
                 position: relative;
-                .NumBTN-1{
+                text-align: center;
+                // .NumBTN-1{
+                //     height: 100%;
+                //     width: 100%;
+                //     position: absolute;
+                //     top: 0;
+                //     left: 0;
+                //     background-image: url(../images/guessNum/panelOneBTN.png);
+                //     background-size: contain;
+                //     background-position: center;
+                //     background-repeat: no-repeat;
+                // }
+                $A_BTN_Position_Y:18%;
+                $B_BTN_Position_Y:35%;
+                $C_BTN_Position_Y:52%;
+                $D_BTN_Position_Y:69%;
+                $I_BTN_Position_X:26%;
+                $II_BTN_Position_X:44%;
+                $III_BTN_Position_X:62%;
+
+                div[class^="NumBTN"],.ruleBTN,.CheckBTN {
                     position: absolute;
-                    top: 0;
-                    left: 0;
-                    background-image: url(../images/guessNum/panelOneBTN.png);
+                    // top: 18%;
+                    // left: 27%;
+                    width: 13%;
+                    height: 13%;
+                    //background-image: url(../images/guessNum/panelOneBTN.png);
                     background-size: contain;
                     background-position: center;
                     background-repeat: no-repeat;
                 }
-                div[className^="NumBTN"] {
-                    position: absolute;
-                    top: 0;
-                    left: 0;
-                    // width: 100%;
-                    // height: 100%;
-                    // background-image: url(../images/guessNum/panelOneBTN.png);
-                    // background-size: contain;
-                    // background-position: center;
-                    // background-repeat: no-repeat;
+                .ruleBTN{
+                    background-image: url(../images/guessNum/rule.png);
+                    top: $D_BTN_Position_Y;
+                    left: $I_BTN_Position_X;
                 }
+                .CheckBTN{
+                    background-image: url(../images/guessNum/check.png);
+                    top: $D_BTN_Position_Y;
+                    left: $III_BTN_Position_X;
+                }
+                .NumBTN-1{
+                    background-image: url(../images/guessNum/panelOneBTN.png);
+                    top: $A_BTN_Position_Y;
+                    left: $I_BTN_Position_X;
+                }
+                .NumBTN-2{
+                    background-image: url(../images/guessNum/panelTwoBTN.png);
+                    top: $A_BTN_Position_Y;
+                    left: $II_BTN_Position_X;
+                }
+                .NumBTN-3{
+                    background-image: url(../images/guessNum/3.png);
+                    top: $A_BTN_Position_Y;
+                    left: $III_BTN_Position_X;
+                }
+                .NumBTN-4{
+                    background-image: url(../images/guessNum/4.png);
+                    top: $B_BTN_Position_Y;
+                    left: $I_BTN_Position_X;
+                }
+                .NumBTN-5{
+                    background-image: url(../images/guessNum/5.png);
+                    top: $B_BTN_Position_Y;
+                    left: $II_BTN_Position_X;
+                }
+                .NumBTN-6{
+                    background-image: url(../images/guessNum/6.png);
+                    top: $B_BTN_Position_Y;
+                    left: $III_BTN_Position_X;
+                }
+                .NumBTN-7{
+                    background-image: url(../images/guessNum/7.png);
+                    top: $C_BTN_Position_Y;
+                    left: $I_BTN_Position_X;
+                }
+                .NumBTN-8{
+                    background-image: url(../images/guessNum/8.png);
+                    top: $C_BTN_Position_Y;
+                    left: $II_BTN_Position_X;
+                }
+                .NumBTN-9{
+                    background-image: url(../images/guessNum/9.png);
+                    top: $C_BTN_Position_Y;
+                    left: $III_BTN_Position_X;
+                }
+                .NumBTN-0{
+                    background-image: url(../images/guessNum/0.png);
+                    top: $D_BTN_Position_Y;
+                    left: $II_BTN_Position_X;
+                }
+                // .NumBTN-{
+                //     background-image: url(../images/guessNum/panelOneBTN.png);
+                // }
+                // .NumBTN-1{
+                //     background-image: url(../images/guessNum/panelOneBTN.png);
+                // }
             }
-        }
+        // }
         
     }
 

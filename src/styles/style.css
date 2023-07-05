@@ -642,26 +642,83 @@ section {
   border: 3px solid #C2E5DE;
   height: 100%;
 }
-.container .game .rightbox .panel {
+.container .game .panel {
+  height: 100%;
+  max-width: 810px;
   background-image: url(../images/guessNum/panelBG.png);
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
+  text-align: center;
 }
-.container .game .rightbox .panel .NumBTN-1 {
+.container .game .panel div[class^=NumBTN], .container .game .panel .ruleBTN, .container .game .panel .CheckBTN {
   position: absolute;
-  top: 0;
-  left: 0;
-  background-image: url(../images/guessNum/panelOneBTN.png);
+  width: 13%;
+  height: 13%;
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
 }
-.container .game .rightbox .panel div[className^=NumBTN] {
-  position: absolute;
-  top: 0;
-  left: 0;
+.container .game .panel .ruleBTN {
+  background-image: url(../images/guessNum/rule.png);
+  top: 69%;
+  left: 26%;
+}
+.container .game .panel .CheckBTN {
+  background-image: url(../images/guessNum/check.png);
+  top: 69%;
+  left: 62%;
+}
+.container .game .panel .NumBTN-1 {
+  background-image: url(../images/guessNum/panelOneBTN.png);
+  top: 18%;
+  left: 26%;
+}
+.container .game .panel .NumBTN-2 {
+  background-image: url(../images/guessNum/panelTwoBTN.png);
+  top: 18%;
+  left: 44%;
+}
+.container .game .panel .NumBTN-3 {
+  background-image: url(../images/guessNum/3.png);
+  top: 18%;
+  left: 62%;
+}
+.container .game .panel .NumBTN-4 {
+  background-image: url(../images/guessNum/4.png);
+  top: 35%;
+  left: 26%;
+}
+.container .game .panel .NumBTN-5 {
+  background-image: url(../images/guessNum/5.png);
+  top: 35%;
+  left: 44%;
+}
+.container .game .panel .NumBTN-6 {
+  background-image: url(../images/guessNum/6.png);
+  top: 35%;
+  left: 62%;
+}
+.container .game .panel .NumBTN-7 {
+  background-image: url(../images/guessNum/7.png);
+  top: 52%;
+  left: 26%;
+}
+.container .game .panel .NumBTN-8 {
+  background-image: url(../images/guessNum/8.png);
+  top: 52%;
+  left: 44%;
+}
+.container .game .panel .NumBTN-9 {
+  background-image: url(../images/guessNum/9.png);
+  top: 52%;
+  left: 62%;
+}
+.container .game .panel .NumBTN-0 {
+  background-image: url(../images/guessNum/0.png);
+  top: 69%;
+  left: 44%;
 }
 .container .success {
   background-image: url(../images/guessNum/zulian-firmansyah-sEUAJeFn5mE-unsplash.jpg);
