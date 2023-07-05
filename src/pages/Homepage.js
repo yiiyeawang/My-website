@@ -28,7 +28,6 @@ function Number({n}) {
 function Homepage() {
   return (
     <>
-
         <div className="hero">
             <div className="content">
             <h1>YII YEA WANG </h1>
