@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/My-website/static/css/main.302ebc3d.css",
-    "main.js": "/My-website/static/js/main.4c7f8f9d.js",
+    "main.css": "/My-website/static/css/main.4caac857.css",
+    "main.js": "/My-website/static/js/main.37daa1ea.js",
     "static/media/thom-milkovic-kYlYwQze5vI-unsplash.jpg": "/My-website/static/media/thom-milkovic-kYlYwQze5vI-unsplash.4efa654ac8ff08e89885.jpg",
     "static/media/panelBG.png": "/My-website/static/media/panelBG.bcf09a65d348b6313a6c.png",
     "static/media/pexels-cottonbro-studio-3738121.jpg": "/My-website/static/media/pexels-cottonbro-studio-3738121.7704dda0c350362ab6f3.jpg",
+    "static/media/PixelImageAPI.png": "/My-website/static/media/PixelImageAPI.d4f64abadd27877ad106.png",
     "static/media/pagebg-left.png": "/My-website/static/media/pagebg-left.f173488f0aa9b8386722.png",
     "static/media/becca-schultz-l6BenhrIc2w-unsplash.jpg": "/My-website/static/media/becca-schultz-l6BenhrIc2w-unsplash.de72748183fd0e9fe7e9.jpg",
     "static/media/peter-herrmann-NQLzyrn69XA-unsplash.jpg": "/My-website/static/media/peter-herrmann-NQLzyrn69XA-unsplash.c5032ade15591830960e.jpg",
-    "static/media/StSFontpage.png": "/My-website/static/media/StSFontpage.a1a44fa77ab3604eaa28.png",
     "static/media/m-wrona-pCgxm-HDMNs-unsplash.jpg": "/My-website/static/media/m-wrona-pCgxm-HDMNs-unsplash.5a8c02bc7a89e3f669f8.jpg",
     "static/media/priscilla-du-preez-zY0q8eFom8I-unsplash.jpg": "/My-website/static/media/priscilla-du-preez-zY0q8eFom8I-unsplash.2008066f4ca6e4081eaf.jpg",
     "static/media/fran-jacquier-tmuArUNS1TI-unsplash.jpg": "/My-website/static/media/fran-jacquier-tmuArUNS1TI-unsplash.b5ac09088192a929b6c8.jpg",
@@ -48,11 +48,11 @@
     "index.html": "/My-website/index.html",
     "static/media/divclass.svg": "/My-website/static/media/divclass.5167b21db6a3ad880bdd358a44dbd452.svg",
     "static/media/room-24px.svg": "/My-website/static/media/room-24px.56c49cd829e0c2afe443f10407916a03.svg",
-    "main.302ebc3d.css.map": "/My-website/static/css/main.302ebc3d.css.map",
-    "main.4c7f8f9d.js.map": "/My-website/static/js/main.4c7f8f9d.js.map"
+    "main.4caac857.css.map": "/My-website/static/css/main.4caac857.css.map",
+    "main.37daa1ea.js.map": "/My-website/static/js/main.37daa1ea.js.map"
   },
   "entrypoints": [
-    "static/css/main.302ebc3d.css",
-    "static/js/main.4c7f8f9d.js"
+    "static/css/main.4caac857.css",
+    "static/js/main.37daa1ea.js"
   ]
 }
