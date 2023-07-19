@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/My-website/static/css/main.4caac857.css",
-    "main.js": "/My-website/static/js/main.37daa1ea.js",
+    "main.js": "/My-website/static/js/main.b565a678.js",
+    "static/media/GuessNum.png": "/My-website/static/media/GuessNum.e12c644b62dc6ad8447f.png",
     "static/media/thom-milkovic-kYlYwQze5vI-unsplash.jpg": "/My-website/static/media/thom-milkovic-kYlYwQze5vI-unsplash.4efa654ac8ff08e89885.jpg",
     "static/media/panelBG.png": "/My-website/static/media/panelBG.bcf09a65d348b6313a6c.png",
     "static/media/pexels-cottonbro-studio-3738121.jpg": "/My-website/static/media/pexels-cottonbro-studio-3738121.7704dda0c350362ab6f3.jpg",
-    "static/media/PixelImageAPI.png": "/My-website/static/media/PixelImageAPI.d4f64abadd27877ad106.png",
     "static/media/pagebg-left.png": "/My-website/static/media/pagebg-left.f173488f0aa9b8386722.png",
     "static/media/becca-schultz-l6BenhrIc2w-unsplash.jpg": "/My-website/static/media/becca-schultz-l6BenhrIc2w-unsplash.de72748183fd0e9fe7e9.jpg",
     "static/media/peter-herrmann-NQLzyrn69XA-unsplash.jpg": "/My-website/static/media/peter-herrmann-NQLzyrn69XA-unsplash.c5032ade15591830960e.jpg",
+    "static/media/PixelImageAPI.png": "/My-website/static/media/PixelImageAPI.16d439854914521da454.png",
     "static/media/m-wrona-pCgxm-HDMNs-unsplash.jpg": "/My-website/static/media/m-wrona-pCgxm-HDMNs-unsplash.5a8c02bc7a89e3f669f8.jpg",
     "static/media/priscilla-du-preez-zY0q8eFom8I-unsplash.jpg": "/My-website/static/media/priscilla-du-preez-zY0q8eFom8I-unsplash.2008066f4ca6e4081eaf.jpg",
     "static/media/fran-jacquier-tmuArUNS1TI-unsplash.jpg": "/My-website/static/media/fran-jacquier-tmuArUNS1TI-unsplash.b5ac09088192a929b6c8.jpg",
     "static/media/about-pic.png": "/My-website/static/media/about-pic.4a163dcf6ffcece29595.png",
     "static/media/charlesdeluvio-pcZvxrAyYoQ-unsplash.jpg": "/My-website/static/media/charlesdeluvio-pcZvxrAyYoQ-unsplash.082fbec9fae026c1c3ed.jpg",
     "static/media/zulian-firmansyah-sEUAJeFn5mE-unsplash.jpg": "/My-website/static/media/zulian-firmansyah-sEUAJeFn5mE-unsplash.46be33aaefd6acdf6711.jpg",
-    "static/media/Paint.jpg": "/My-website/static/media/Paint.a7b21009e03ef516b266.jpg",
     "static/media/background.png": "/My-website/static/media/background.a5480f4d95eeede582bb.png",
     "static/media/dan-gold-R1aGG70azDU-unsplash-2.jpg": "/My-website/static/media/dan-gold-R1aGG70azDU-unsplash-2.8d8c45c1df84a0ee26c4.jpg",
-    "static/media/GD.jpg": "/My-website/static/media/GD.010936318b1a20442f95.jpg",
     "static/media/clock.mp3": "/My-website/static/media/clock.242e1f807c64778bd81b.mp3",
+    "static/media/JapaneseCard.png": "/My-website/static/media/JapaneseCard.a5c9899b292b59013b9a.png",
     "static/media/welcome-start-btn.png": "/My-website/static/media/welcome-start-btn.d34af250ab865b009126.png",
     "static/media/check.png": "/My-website/static/media/check.12493bd58835f8d1bba2.png",
     "static/media/4.png": "/My-website/static/media/4.1d4510dc55d7da098b14.png",
@@ -49,10 +49,10 @@
     "static/media/divclass.svg": "/My-website/static/media/divclass.5167b21db6a3ad880bdd358a44dbd452.svg",
     "static/media/room-24px.svg": "/My-website/static/media/room-24px.56c49cd829e0c2afe443f10407916a03.svg",
     "main.4caac857.css.map": "/My-website/static/css/main.4caac857.css.map",
-    "main.37daa1ea.js.map": "/My-website/static/js/main.37daa1ea.js.map"
+    "main.b565a678.js.map": "/My-website/static/js/main.b565a678.js.map"
   },
   "entrypoints": [
     "static/css/main.4caac857.css",
-    "static/js/main.37daa1ea.js"
+    "static/js/main.b565a678.js"
   ]
 }
