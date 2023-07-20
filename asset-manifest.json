@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/My-website/static/css/main.4caac857.css",
-    "main.js": "/My-website/static/js/main.6ed3ae29.js",
+    "main.js": "/My-website/static/js/main.525fbfb0.js",
     "static/media/GuessNum.png": "/My-website/static/media/GuessNum.e12c644b62dc6ad8447f.png",
     "static/media/thom-milkovic-kYlYwQze5vI-unsplash.jpg": "/My-website/static/media/thom-milkovic-kYlYwQze5vI-unsplash.4efa654ac8ff08e89885.jpg",
     "static/media/panelBG.png": "/My-website/static/media/panelBG.bcf09a65d348b6313a6c.png",
@@ -49,10 +49,10 @@
     "static/media/divclass.svg": "/My-website/static/media/divclass.5167b21db6a3ad880bdd358a44dbd452.svg",
     "static/media/room-24px.svg": "/My-website/static/media/room-24px.56c49cd829e0c2afe443f10407916a03.svg",
     "main.4caac857.css.map": "/My-website/static/css/main.4caac857.css.map",
-    "main.6ed3ae29.js.map": "/My-website/static/js/main.6ed3ae29.js.map"
+    "main.525fbfb0.js.map": "/My-website/static/js/main.525fbfb0.js.map"
   },
   "entrypoints": [
     "static/css/main.4caac857.css",
-    "static/js/main.6ed3ae29.js"
+    "static/js/main.525fbfb0.js"
   ]
 }
