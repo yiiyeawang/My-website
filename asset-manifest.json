@@ -1,9 +1,12 @@
 {
   "files": {
-    "main.css": "/My-website/static/css/main.081e4531.css",
-    "main.js": "/My-website/static/js/main.51c6e77a.js",
+    "main.css": "/My-website/static/css/main.cfdb6595.css",
+    "main.js": "/My-website/static/js/main.50d938f1.js",
+    "static/media/Tree3.jpg": "/My-website/static/media/Tree3.0c00482304c224eb89db.jpg",
+    "static/media/Tree2.jpg": "/My-website/static/media/Tree2.4323d9dc49f2fe773eed.jpg",
     "static/media/GuessNum.png": "/My-website/static/media/GuessNum.e12c644b62dc6ad8447f.png",
     "static/media/thom-milkovic-kYlYwQze5vI-unsplash.jpg": "/My-website/static/media/thom-milkovic-kYlYwQze5vI-unsplash.4efa654ac8ff08e89885.jpg",
+    "static/media/heaaderBG.jpg": "/My-website/static/media/heaaderBG.7b28c354b245ad166008.jpg",
     "static/media/panelBG.png": "/My-website/static/media/panelBG.bcf09a65d348b6313a6c.png",
     "static/media/pexels-cottonbro-studio-3738121.jpg": "/My-website/static/media/pexels-cottonbro-studio-3738121.7704dda0c350362ab6f3.jpg",
     "static/media/pagebg-left.png": "/My-website/static/media/pagebg-left.f173488f0aa9b8386722.png",
@@ -12,11 +15,15 @@
     "static/media/PixelImageAPI.png": "/My-website/static/media/PixelImageAPI.16d439854914521da454.png",
     "static/media/m-wrona-pCgxm-HDMNs-unsplash.jpg": "/My-website/static/media/m-wrona-pCgxm-HDMNs-unsplash.5a8c02bc7a89e3f669f8.jpg",
     "static/media/priscilla-du-preez-zY0q8eFom8I-unsplash.jpg": "/My-website/static/media/priscilla-du-preez-zY0q8eFom8I-unsplash.2008066f4ca6e4081eaf.jpg",
+    "static/media/2023冬季台灣-名古屋航線表.png": "/My-website/static/media/2023冬季台灣-名古屋航線表.9f1f44a355afc08e713b.png",
     "static/media/fran-jacquier-tmuArUNS1TI-unsplash.jpg": "/My-website/static/media/fran-jacquier-tmuArUNS1TI-unsplash.b5ac09088192a929b6c8.jpg",
+    "static/media/Tree1.jpg": "/My-website/static/media/Tree1.7696834d4523b9da53e1.jpg",
     "static/media/about-pic.png": "/My-website/static/media/about-pic.4a163dcf6ffcece29595.png",
     "static/media/charlesdeluvio-pcZvxrAyYoQ-unsplash.jpg": "/My-website/static/media/charlesdeluvio-pcZvxrAyYoQ-unsplash.082fbec9fae026c1c3ed.jpg",
+    "static/media/cart.png": "/My-website/static/media/cart.7dde188d59e134c2277b.png",
     "static/media/zulian-firmansyah-sEUAJeFn5mE-unsplash.jpg": "/My-website/static/media/zulian-firmansyah-sEUAJeFn5mE-unsplash.46be33aaefd6acdf6711.jpg",
     "static/media/background.png": "/My-website/static/media/background.a5480f4d95eeede582bb.png",
+    "static/media/bg-onlyleaf.jpg": "/My-website/static/media/bg-onlyleaf.bf84d89c4641f5f78445.jpg",
     "static/media/dan-gold-R1aGG70azDU-unsplash-2.jpg": "/My-website/static/media/dan-gold-R1aGG70azDU-unsplash-2.8d8c45c1df84a0ee26c4.jpg",
     "static/media/clock.mp3": "/My-website/static/media/clock.242e1f807c64778bd81b.mp3",
     "static/media/JapaneseCard.png": "/My-website/static/media/JapaneseCard.a5c9899b292b59013b9a.png",
@@ -42,17 +49,17 @@
     "static/media/backAndNextButton.mp3": "/My-website/static/media/backAndNextButton.53abc79e4d7abfc76534.mp3",
     "static/media/swithModeButton.mp3": "/My-website/static/media/swithModeButton.eeedb6f7a0542bbb792d.mp3",
     "static/media/bc.svg": "/My-website/static/media/bc.f9b1e4b818242204a57ae9026131e1f6.svg",
-    "static/media/linkedin.svg": "/My-website/static/media/linkedin.7defd339fd92d3e5fa034b24a5f10ed6.svg",
     "static/media/Group 1.svg": "/My-website/static/media/Group 1.ce7afde82dff703de99ce2e2714e6837.svg",
-    "static/media/behance-brands.svg": "/My-website/static/media/behance-brands.9d88bef1ca12bc642c72b9b79f2517db.svg",
+    "static/media/linkedin.svg": "/My-website/static/media/linkedin.98cedccfdbccfc4da664092679020f0e.svg",
+    "static/media/behance-brands.svg": "/My-website/static/media/behance-brands.5ac1bef895cbdc6fa79abae8447733ff.svg",
     "index.html": "/My-website/index.html",
     "static/media/divclass.svg": "/My-website/static/media/divclass.5167b21db6a3ad880bdd358a44dbd452.svg",
     "static/media/room-24px.svg": "/My-website/static/media/room-24px.56c49cd829e0c2afe443f10407916a03.svg",
-    "main.081e4531.css.map": "/My-website/static/css/main.081e4531.css.map",
-    "main.51c6e77a.js.map": "/My-website/static/js/main.51c6e77a.js.map"
+    "main.cfdb6595.css.map": "/My-website/static/css/main.cfdb6595.css.map",
+    "main.50d938f1.js.map": "/My-website/static/js/main.50d938f1.js.map"
   },
   "entrypoints": [
-    "static/css/main.081e4531.css",
-    "static/js/main.51c6e77a.js"
+    "static/css/main.cfdb6595.css",
+    "static/js/main.50d938f1.js"
   ]
 }
